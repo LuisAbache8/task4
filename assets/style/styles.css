@@ -239,7 +239,7 @@ textarea {
     color: grey;
 }
 
-/*
+
 @media only screen and (min-width: 320px) and (max-width:768px) {
 nav {
     position: sticky;
@@ -428,4 +428,4 @@ textarea {
 }
 footer {
     display: none;
-}*/
+}
