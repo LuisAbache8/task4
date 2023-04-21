@@ -430,6 +430,7 @@ footer {
     display: none;
 }
 */
+
 @media only screen and (min-width: 768px) and (max-width:1024px)
  {
     nav {
@@ -441,6 +442,7 @@ footer {
         background-color:rgb(221, 126, 145);
         position: sticky;
         top: 0;
+        
         
     }
     header {
@@ -538,35 +540,34 @@ footer {
     .cuadrouno:hover {
         transform:none;
     }  
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .imgcontact {
+       
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .imgcontact > img {
+        height: 70vh;
+        width: 70vw;
+        border-radius: 0.5rem;
+        border: 0.1rem solid purple;
+        
+    }
+    .boxcontact > p {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: brown;
+        text-align: center;
+        
+        width: 50vw;
+        margin-left: 4rem;
+    }  
+    .boxfooter {
+        height: 20vh;
+        width: 40rem;
+        display: flex;
+        flex-direction: column;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
     
 }
