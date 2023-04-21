@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: peachpuff;
+}
+nav {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:rgb(221, 126, 145);
+    position: sticky;
+    top: 0;
+}
+header {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    min-height: 50vh;
+}
+#logo {
+    width: 3em;
+    height: 3rem;
+}
+a {
+    color: purple;
+}
+.nav1 {
+    display: flex;
+     width: 35%;
+    justify-content: space-around;
+    
+}
+h1, h2{
+color:purple;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+
+}
+h1 {
+    font-family: 'Sniglet', cursive;
+    font-family: 'Tilt Prism', cursive;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.woman img {
+    width: 80vw;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 0.4rem;
+    border: 0.1rem solid purple;
+}
+
+.boxindex {
+    height: 60vh;
+    width: 97vw ;
+    display: flex;
+    justify-content: space-between;
+}
+.cuadrouno, .cuadrodos {
+    width: 30rem;
+    height: 15rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    color: violet;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cuadrodos img {
+    width: 30vw;
+    height: 15rem;
+    object-fit: cover;
+    border-radius:1rem;
+    border: 0.1rem solid purple;
+    margin-top: 0.5rem;
+}
+.cuadrodos img:hover {
+    transform:translateX(4rem)
+}
+.cuadrouno {
+  color: violet;
+    font: 1.2rem;
+    display: flex;
+    align-items:center;
+    text-align: justify;
+    padding: 2rem;
+    margin-left: 6rem;
+}
+.cuadrouno:hover {
+    transform: translateX(-4rem);
+}
+.containerAbaout1 {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerAbaout2 {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerAbaout3 {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerAbaout5 {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgcontact > img {
+    height: 70vh;
+    width: 70vw;
+    border-radius: 0.5rem;
+    border: 0.1rem solid purple;
+}
+.boxcontact > p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+}
+.boxfooter {
+    height: 20vh;
+    width: 80rem;
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-around;  
+}
+table {
+    background-color: violet;
+    color: white;
+    padding: 2px;
+    height: 60vh;
+    width: 60vw;
+    text-align: center;
+    margin-left: 15rem;
+    border-radius: 1rem;
+}
+table:hover {
+    transform: scale(1.2);
+}
+th {
+    background-color:blueviolet;
+    border-radius: 0.5rem;
+}
+tr {
+    background-color: crimson;
+    border-radius: 0.5rem;
+}
+td {
+    background-color: crimson;
+    border-radius: 0.5rem;
+}
+caption {
+    background-color:crimson;
+    border-radius: 0.5rem;
+}
+.raffle {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.imageraffle {
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.image1, .image2 {
+    width: 20vw;
+    height: 80vh;
+    border-radius: 1rem;
+       margin: 1rem;
+}
+#god {
+    width: 22vw;
+    height: 35vh;
+    border-radius: 1rem;
+}
+#god2 {
+    width: 22vw;
+    height: 35vh;
+    border-radius: 1rem;
+}
+
+footer {
+    height: 10vh;
+
+}
+iframe {
+    height: 12vh;
+    width: 12vw;
+    border-radius: 1rem;
+    margin-left: 10rem;
+    margin-bottom: 0;
+}
+iframe:hover {
+    transform: scale(1.2);
+}
+form {
+    width: 20rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:purple;
+}
+input {
+    width: 20vw;
+    border-radius: 0.4rem;
+    color: grey;
+}
+select {
+    width: 20vw;
+    border-radius: 0.4rem;
+}
+textarea {
+    border-radius: 0.4rem;
+    width: 18rem;
+    color: grey;
+}
+
+/*
+@media only screen and (min-width: 320px) and (max-width:768px) {
+nav {
+    position: sticky;
+    top: 0;
+    flex-direction: column;
+}
+nav a {
+    padding-top: 0.5rem;
+    margin: 0.3rem;
+    font-size: 0.8rem;
+}
+.cuadrodos img:hover {
+    transform:none;
+}
+.cuadrouno:hover {
+    transform: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.boxindex {
+height: 100vh;
+width: 100vw;
+flex-wrap: wrap;
+
+}
+.cuadrouno {
+color: violet;
+font-size: 1rem;
+margin-right: 4rem;
+height: 20rem;
+}       
+.cuadrodos img {
+height: 30vh;
+width: 80vw;
+margin-left: 2rem;
+}
+.containerAbaout1 {
+display: flex;
+flex-direction: column;
+align-items: start;
+width: 70vw;
+}
+.containerAbaout1 > .cuadrouno {
+    text-align: center;
+    font-size: 0.8rems;
+    margin-left: 0;
+    width: 90vw;
+}
+.containerAbaout1 > .cuadrodos {
+width: 90vw;
+}
+}
+.containerAbaout2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 70vw;
+    }
+    .containerAbaout2 > .cuadrouno {
+        text-align: center;
+        font-size: 0.8rems;
+        margin-left: 0;
+        width: 90vw;
+    }
+    .containerAbaout2 > .cuadrodos {
+    width: 90vw;    
+    }
+.containerAbaout3 {
+display: flex;
+flex-direction: column;
+align-items: start;
+width: 70vw;
+}
+.containerAbaout3 > .cuadrouno {
+    text-align: center;
+    font-size: 0.8rems;
+    margin-left: 0;
+    width: 90vw;
+}
+.containerAbaout3 > .cuadrodos {
+width: 90vw;
+}
+.imgcontact > img {
+    height: 30vh;
+    width: 80vw;
+    border-radius: 0.5rem;
+    border: 0.1rem solid purple;
+    margin-left: 2rem;
+}
+.boxcontact > p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+    text-align: center;
+}
+.boxfooter {
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column; 
+}
+table {
+    background-color: violet;
+    color: white;
+    height: 40vh;
+    width: 40vw;
+    text-align: center;
+    border-radius: 1rem;
+    margin-left: 3rem;
+}
+table:hover {
+    transform: none;
+}
+.containerAbaout5 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 60vw; 
+    margin: 1.2rem;
+}
+.containerAbaout5 > .cuadrouno {
+    text-align: center;
+    font-size: 0.8rems;
+    margin-left: 0;
+    width: 90vw;
+   
+}
+.containerAbaout5 > .cuadrodos {
+width: 90vw;
+margin-top: 5rem;
+}
+.containerAbaout5 > .cuadrodos > img {
+    margin-left: 2rem;
+}
+.raffle {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction:column-reverse;
+    flex-wrap: wrap;
+}
+.imageraffle {
+    width: 20vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#god {
+    width: 26vw;
+    height: 18vh;
+    border-radius: 1rem;
+}
+#god2 {
+    width: 26vw;
+    height: 18vh;
+    border-radius: 1rem;
+}
+
+form {
+    width: 10rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:purple;
+    margin-left: 3rem;
+}
+input {
+    width: 28vw;
+    border-radius: 0.4rem;
+    color: grey;
+}
+select {
+    width: 25vw;
+    border-radius: 0.4rem;
+}
+textarea {
+    border-radius: 0.4rem;
+    width: 9rem;
+    color: grey;
+}
+footer {
+    display: none;
+}*/
