@@ -239,7 +239,7 @@ textarea {
     color: grey;
 }
 
-
+/*
 @media only screen and (min-width: 320px) and (max-width:768px) {
 nav {
     position: sticky;
@@ -428,4 +428,145 @@ textarea {
 }
 footer {
     display: none;
+}
+*/
+@media only screen and (min-width: 768px) and (max-width:1024px)
+ {
+    nav {
+        width: 100%;
+        min-height: 10vh;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color:rgb(221, 126, 145);
+        position: sticky;
+        top: 0;
+        
+    }
+    header {
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    main {
+        min-height: 50vh;
+        
+        
+    }
+    #logo {
+        width: 2rem;
+        height: 2rem;
+        
+        
+    }
+    a {
+        color: purple;
+        
+    }
+    .nav1 {
+        display: flex;
+         width: 60%;
+        justify-content: space-evenly;
+        
+    }
+    h1, h2{
+    color:purple;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+    
+    }
+    h1 {
+        font-family: 'Sniglet', cursive;
+        font-family: 'Tilt Prism', cursive;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+    }
+    .woman img {
+        width: 60vw;
+        height: 70vh;
+        object-fit: cover;
+        border-radius: 0.4rem;
+        border: 0.1rem solid purple;
+        
+    }
+    
+    .boxindex {
+        height: 100vh;
+        width: 90vw ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        margin: 0.5rem;
+    }
+    
+    .cuadrodos img {
+        width: 40vw;
+        height: 15rem;
+        object-fit: cover;
+        border-radius:1rem;
+        border: 0.1rem solid purple;
+        margin-top: 0.5rem;
+       
+        margin-left: 5.5rem;
+        
+        
+    }
+    .cuadrodos img:hover {
+        transform:none;
+    }
+    .cuadrouno {
+      color: violet;
+        font: 0.8rem;
+      
+        width: 40vw;
+        height: 15rem;
+        margin-left: 0rem;
+
+    }
+    .cuadrouno:hover {
+        transform:none;
+    }  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
