@@ -569,5 +569,23 @@ footer {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         
     }
+    table {
+        background-color: violet;
+        color: white;
+        padding: 2px;
+        height: 60vh;
+        width: 60vw;
+        text-align: center;
+        border-radius: 1rem;
+        margin-left: 1rem;
+    }
+    table:hover {
+        transform:none;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
 }
